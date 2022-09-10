@@ -50,7 +50,7 @@ and (min-width : 1224px) {
     }
 
     .mainSection {
-        margin: 0px auto;
+        margin: 0 auto;
         width: 1000px;
     }
 
@@ -69,7 +69,7 @@ and (min-width : 1224px) {
         display: block;
         width: 80%;
         height: 50px;
-        margin: 0px auto;
+        margin: 0 auto;
     }
 
     .navigation > ul {
@@ -82,7 +82,7 @@ and (min-width : 1224px) {
         font-weight: bold;
         cursor: pointer;
         font-size: 1.5rem;
-        margin: 0px 30px;
+        margin: 0 30px;
     }
 
     .navigation > ul > li > a {
