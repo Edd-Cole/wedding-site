@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @NoArgsConstructor
 public class HomeController {
 
-//    @RequestMapping(path = {"/home", "/", "home.html"}, method = RequestMethod.GET)
+//    @RequestMapping(path = {"/home", "/", "index.html"}, method = RequestMethod.GET)
     @RequestMapping("/home")
     public ResponseEntity<String> getHomePage(Model model) {
         return new ResponseEntity<>("home", HttpStatus.OK);
