@@ -142,3 +142,29 @@ only screen and (min-resolution: 192dpi)and (max-width:640px) {
     text-decoration: underline black;
     font-weight: bold;
 }
+
+.footer {
+    height: 50px;
+    background-color: gray;
+    text-align: center;
+    position:absolute;
+    bottom: 0vh;
+    width: 99vw;
+}
+
+.footer > p {
+    color: white;
+    font-size: 2em;
+    font-family: Chilanka;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
