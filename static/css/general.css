@@ -46,12 +46,12 @@ and (orientation : portrait) {
 and (min-width : 1224px) {
     /* Styles */
     .subSection {
-        margin: 2rem;
+        margin: 1vw;
     }
 
     .mainSection {
         margin: 0 auto;
-        width: 1000px;
+        width: 50vw;
     }
 
     h1 {
@@ -129,6 +129,25 @@ only screen and (-webkit-device-pixel-ratio: 2) {
 only screen and (min-device-width : 414px),
 only screen and (-webkit-device-pixel-ratio: 3) {
     /*** You've spent way too much on a phone ***/
+    .navigation {
+        display: block;
+        width: 80%;
+        height: 50px;
+        margin: 0 auto;
+    }
+
+    .navigation > ul {
+        list-style-type: none;
+        text-align: center;
+    }
+
+    .navigation > ul > li {
+        display: inline-flex;
+        font-weight: bold;
+        cursor: pointer;
+        font-size: 1.5rem;
+        margin: 0 30px;
+    }
 }
 
 /* Samsung Galaxy S7 Edge ----------- */
@@ -161,6 +180,7 @@ only screen and (min-resolution: 192dpi)and (max-width:640px) {
 html, body {
     height: 100%;
     margin: 0;
+    width: 100%;
 }
 
 .wrapper {
