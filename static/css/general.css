@@ -111,9 +111,9 @@ only screen and (min-device-width : 414px),
 only screen and (-webkit-device-pixel-ratio: 3) {
     /*** You've spent way too much on a phone ***/
     .navigation {
-        display: inline-flex;
+        display: block;
         width: 80%;
-        height: 50px;
+        height: 100px;
         margin: 0 auto;
     }
 
