@@ -45,14 +45,7 @@ and (orientation : portrait) {
 @media only screen
 and (min-width : 1224px) {
     /* Styles */
-    .subSection {
-        margin: 1vw;
-    }
 
-    .mainSection {
-        margin: 0 auto;
-        width: 50vw;
-    }
 
     h1 {
         font-size: 3rem;
@@ -188,3 +181,11 @@ html, body {
     margin-bottom: -50px;
 }
 
+.subSection {
+    margin: 1vw;
+}
+
+.mainSection {
+    margin: 0 auto;
+    width: 50vw;
+}
