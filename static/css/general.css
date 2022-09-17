@@ -130,8 +130,8 @@ only screen and (-webkit-device-pixel-ratio: 3) {
     }
 
     .visaPhoto {
-        height: 50px;
-        width: 50px;
+        height: 120px;
+        width: 120px;
     }
 }
 
