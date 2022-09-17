@@ -60,9 +60,10 @@ and (min-width : 1224px) {
 
     .navigation {
         display: block;
-        width: 80%;
+        width: 100%;
         height: 50px;
-        margin: 0 auto;
+        margin: auto auto;
+        align-self: center;
     }
 
     .navigation > ul {
@@ -103,20 +104,6 @@ and (min-width : 1824px) {
     /* Styles */
 }
 
-/* iPhone 4 - 5s ----------- */
-@media
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) {
-    /* Styles */
-}
-
-/* iPhone 6 ----------- */
-@media
-only screen and (max-device-width: 667px),
-only screen and (-webkit-device-pixel-ratio: 2) {
-    /* Styles */
-}
-
 /* iPhone 6+ ----------- */
 @media
 only screen and (min-device-width : 414px),
@@ -140,6 +127,11 @@ only screen and (-webkit-device-pixel-ratio: 3) {
         cursor: pointer;
         font-size: 1.5rem;
         margin: 0 30px;
+    }
+
+    .visaPhoto {
+        height: 50px;
+        width: 50px;
     }
 }
 
