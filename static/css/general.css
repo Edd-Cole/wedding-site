@@ -113,7 +113,7 @@ only screen and (-webkit-device-pixel-ratio: 3) {
     .navigation {
         display: block;
         width: 80%;
-        height: 100px;
+        height: 200px;
         margin: 0 auto;
     }
 
@@ -131,8 +131,8 @@ only screen and (-webkit-device-pixel-ratio: 3) {
     }
 
     .visaPhoto {
-        height: 150px;
-        width: 150px;
+        height: 200px;
+        width: 200px;
     }
 }
 
