@@ -76,6 +76,16 @@ only screen and (-webkit-device-pixel-ratio: 3) {
         height: 200px;
         width: 200px;
     }
+
+    .map {
+        width: 80vw;
+    }
+
+    .eands {
+        width: 90vw;
+        margin: 0 5vw;
+    }
+
 }
 
 /* Samsung Galaxy S7 Edge ----------- */
@@ -89,7 +99,9 @@ only screen and (min-resolution: 192dpi)and (max-width:640px) {
 @media only screen
 and (min-width : 1224px) {
     /* Styles */
-
+    .map {
+        width: 40vw;
+    }
 
     h1 {
         font-size: 3rem;
@@ -137,7 +149,12 @@ and (min-width : 1224px) {
 
     .visaPhoto {
         height: 200px;
-        width:200px;
+        width: 200px;
+    }
+
+    .eands {
+        width: 50vw;
+        margin: 0 25vw;
     }
 }
 
@@ -181,3 +198,5 @@ html, body {
     margin: 0 auto;
     width: 75vw;
 }
+
+
