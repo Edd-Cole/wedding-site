@@ -194,4 +194,12 @@ html, body {
     width: 75vw;
 }
 
+.imageDesc {
+    width: 20vw;
+    height: 20vw;
+    display: inline-flex;
+    margin: 2px 20px;
+    align-self: center;
+}
+
 
