@@ -182,7 +182,6 @@ html, body {
 
 .wrapper {
     min-height: 100%;
-    margin-bottom: -50px;
 }
 
 .subSection {
@@ -202,4 +201,10 @@ html, body {
     align-self: center;
 }
 
+footer {
+    height: 50px;
+    background-color: gray;
+    margin: 20px 0 0 0;
+    bottom: 0px;
+}
 
